@@ -1,0 +1,14 @@
+.todo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+.todo > img{
+    width: 25px;
+    height: auto;
+}
+.todo > p{
+    flex: 1;
+    font-weight: 700;
+}

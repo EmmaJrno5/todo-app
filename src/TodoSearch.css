@@ -1,0 +1,25 @@
+
+.todo-search{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.todo-search > input{
+    background-color: transparent;
+    border: none;
+    flex: 1;
+    font-size: 18px;
+    outline: none;
+    caret-color: hsl(220, 98%, 61%);
+    
+}
+.todo-search > input::placeholder{
+    font-family: "Josefin Sans" sans-serif;
+    font-weight: 400;
+    color: var(--light-grayish-blue);
+    font-size: 18px;
+}

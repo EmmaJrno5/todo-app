@@ -1,0 +1,16 @@
+.todo-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    color: white;
+    
+}
+.todo-header > button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.todo-header > button > img{
+    width: 100%;
+}
